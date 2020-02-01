@@ -1,2 +1,13 @@
 <!--pages/index/index.wxml-->
 <text>hello world</text>
+<!-- 1. 小程序数据绑定 语法： {{}} Mustache-->
+<view>hello {{name}}</view>
+<view>Welcome to {{city}}</view>
+
+<!-- 2. 列表展示 -->
+<view wx:for="{{persons}}">{{item.name}}-{{item.age}}</view>
+
+<!-- 3. 事件绑定 改变data值 -->
+<view>总计：{{counter}}</view>
+<button size="mini" bindtap="handleBtnClick">+</button>
+<button size="mini" bindtap="handleSubtraction">-</button>

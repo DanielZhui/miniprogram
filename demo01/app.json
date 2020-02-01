@@ -1,5 +1,31 @@
 {
   "pages": [
-    "pages/index/index"
-  ]
+    "pages/index/index",
+    "pages/category/cotegory"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "测试",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "selectedColor": "#FFC0CB",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/index.png",
+        "selectedIconPath": "assets/index.png"
+      },
+      {
+        "pagePath": "pages/category/cotegory",
+        "text": "分类",
+        "iconPath": "assets/category.png",
+        "selectedIconPath": "assets/category.png"
+      }
+    ]
+  }
 }
