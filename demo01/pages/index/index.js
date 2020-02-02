@@ -25,5 +25,9 @@ Page({
     this.setData({
       counter: this.data.counter -= 1
     })
+  },
+  // 绑定事件时 会默认传递一个参数 event
+  getUserInfo(event){
+    console.log(event)
   }
 })

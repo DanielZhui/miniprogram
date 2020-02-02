@@ -19,8 +19,6 @@ App({
    */
   onShow: function (options) {
     console.log('show miniprogram')
-    const err = new Error()
-    throw err
   },
 
   /**

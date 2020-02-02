@@ -11,3 +11,10 @@
 <view>总计：{{counter}}</view>
 <button size="mini" bindtap="handleBtnClick">+</button>
 <button size="mini" bindtap="handleSubtraction">-</button>
+
+<!-- 4. 绑定事件获取用户信息 -->
+<button size='mini' open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取用户信息</button>
+
+<!-- 5. 暂时用户信息组件 open-data -->
+<open-data type='userNickName'></open-data>
+<open-data type='userAvatarUrl'></open-data>
