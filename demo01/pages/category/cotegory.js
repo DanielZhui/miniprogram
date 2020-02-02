@@ -1,3 +1,6 @@
+const app = getApp()
+const name = app.globalData.name
+console.log(name)
 // pages/category/cotegory.js
 Page({
 
@@ -5,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: name
   },
 
   /**

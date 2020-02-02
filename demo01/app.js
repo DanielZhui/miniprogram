@@ -33,5 +33,10 @@ App({
    */
   onError: function (msg) {
     console.log('something error')
+  },
+  // app.js 中存储的全局数据可以提供所有页面共享
+  globalData: {
+    name: 'Tom',
+    age: 16
   }
 })

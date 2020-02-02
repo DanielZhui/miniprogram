@@ -1,2 +1,3 @@
 <!--pages/category/cotegory.wxml-->
+<view>hello {{name}}</view>
 <text>welcome to category page</text>
