@@ -11,8 +11,9 @@
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
   },
-  "selectedColor": "#FFC0CB",
   "tabBar": {
+    "color": "#FFB6C1",
+    "selectedColor": "#DB7093",
     "list": [
       {
         "pagePath": "pages/index/index",
