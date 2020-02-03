@@ -1,0 +1,14 @@
+<!--pages/component/component.wxml-->
+<!-- 1. text 组件 -->
+<text>hello world\n</text>
+<text selectable>hello world\n</text>
+<button type="primary">确认</button>
+
+<!-- image 组件 -->
+<!-- 1. 使用 image 选择系统图片 -->
+<button bindtap="handleChooseImage">选择图片</button>
+<image wx:for="{{imagePath}}" src="{{item}}"></image>
+
+<!-- 3. mustatch语法小实例 -->
+  <!-- 1. 设置一个实时显示时间 -->
+<view>{{currentTime}}</view>

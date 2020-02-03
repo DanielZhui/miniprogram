@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/category/cotegory"
+    "pages/category/cotegory",
+    "pages/component/component"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFC0CB",
@@ -24,6 +25,12 @@
       {
         "pagePath": "pages/category/cotegory",
         "text": "分类",
+        "iconPath": "assets/category.png",
+        "selectedIconPath": "assets/category.png"
+      },
+      {
+        "pagePath": "pages/component/component",
+        "text": "组件",
         "iconPath": "assets/category.png",
         "selectedIconPath": "assets/category.png"
       }
