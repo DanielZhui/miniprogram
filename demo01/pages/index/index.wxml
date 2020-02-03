@@ -18,3 +18,7 @@
 <!-- 5. 暂时用户信息组件 open-data -->
 <open-data type='userNickName'></open-data>
 <open-data type='userAvatarUrl'></open-data>
+
+<!-- 6. 动态改变文字颜色 -->
+<button size="mini" bindtap="handleSwitchColor">切换颜色</button>
+<view class='{{isActive ? "active": ""}}'>hello world</view>

@@ -11,7 +11,8 @@ Page({
       { name: "Alex", age: 10 },
       { name: "Jerry", age: 10 }
     ],
-    counter: 0
+    counter: 0,
+    isActive: false
   },
   // Page 中绑定方法
   handleBtnClick(){
@@ -29,5 +30,10 @@ Page({
   // 绑定事件时 会默认传递一个参数 event
   getUserInfo(event){
     console.log(event)
+  },
+  handleSwitchColor(){
+    this.setData({
+      isActive: !this.data.isActive
+    })
   }
 })
