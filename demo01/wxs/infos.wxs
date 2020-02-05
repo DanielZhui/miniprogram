@@ -1,0 +1,9 @@
+// wxs 单独文件导入方式
+var name = "Jerry";
+var sum = function (num1, num2) {
+  return num1 + num2
+}
+module.exports = {
+  name: name,
+  sum: sum
+}

@@ -22,3 +22,36 @@
 <!-- 6. 动态改变文字颜色 -->
 <button size="mini" bindtap="handleSwitchColor">切换颜色</button>
 <view class='{{isActive ? "active": ""}}'>hello world</view>
+
+<!-- 7. 模版引用 -->
+  <!-- 1. 定义模版 -->
+<template name="contentItem">
+  <button size="mini">{{btnText}}</button>
+  <view>{{content}}</view>
+</template>
+
+  <!-- 2. 引用模版 -->
+<template is="contentItem" data="{{btnText: '按钮', content: '按钮'}}"></template>
+<template is="contentItem" data="{{btnText: '警告', content: '警告'}}"></template>
+<template is="contentItem" data="{{btnText: '登录', content: '登录'}}"></template>
+
+<!-- 8. wxs的使用: es5语法 -->
+<!-- 8.1 直接在文件中写 wxs -->
+<wxs module="info">
+  var name = "Tom";
+  var sum = function(num1, num2) {
+    return num1 + num2
+  }
+  module.exports = {
+    name: name,
+    sum: sum
+  }
+</wxs>
+
+<view>{{info.name}}</view>
+<view>{{info.sum(2, 3)}}</view>
+
+<!-- 8.2 通过一个 wxs 文件导入 wxs 代码, 这种方式只能使用相对路径，但标签双标签都可 -->
+<wxs src="../../wxs/infos.wxs" module="infos"/>
+<view>{{infos.name}}</view>
+<view>{{infos.sum(2, 3)}}</view>
