@@ -55,3 +55,8 @@
 <wxs src="../../wxs/infos.wxs" module="infos"/>
 <view>{{infos.name}}</view>
 <view>{{infos.sum(2, 3)}}</view>
+
+<!-- 9. wxs的使用 -->
+<view>-----wxs简单使用-----</view>
+<wxs src="../../wxs/format.wxs" module="format"/>
+<view>{{format.priceFormat(price, 2)}}</view>

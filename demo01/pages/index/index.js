@@ -12,7 +12,8 @@ Page({
       { name: "Jerry", age: 10 }
     ],
     counter: 0,
-    isActive: false
+    isActive: false,
+    price: "23.6666"
   },
   // Page 中绑定方法
   handleBtnClick(){
