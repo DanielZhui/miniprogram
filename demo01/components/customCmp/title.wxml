@@ -1,0 +1,4 @@
+<!--components/customCmp/title.wxml-->
+<text>components/customCmp/title.wxml</text>
+<view class="title">{{title}}</view>
+<view class="content">{{content}}</view>

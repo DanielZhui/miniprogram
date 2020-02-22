@@ -60,3 +60,5 @@
 <view>-----wxs简单使用-----</view>
 <wxs src="../../wxs/format.wxs" module="format"/>
 <view>{{format.priceFormat(price, 2)}}</view>
+
+<!-- 10. 自定义组件的使用 -->

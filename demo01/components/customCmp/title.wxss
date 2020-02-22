@@ -1,0 +1,11 @@
+/* components/customCmp/title.wxss */
+.title {
+  font-size: 40rpx;
+  color: red;
+  font-weight: 600
+}
+
+.content {
+  font-size: 30rpx;
+
+}
