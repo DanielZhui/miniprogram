@@ -1,3 +1,9 @@
 <!--pages/category/cotegory.wxml-->
 <view>hello {{name}}</view>
 <text>welcome to category page</text>
+
+<view wx:for="{{person}}" wx:key="index">
+  <view 
+    bindtap="handleItemClick"
+    data-index="{{index}}" data-item="{{item}}">{{item}}</view>
+</view>

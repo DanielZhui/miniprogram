@@ -8,7 +8,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    name: name
+    name: name,
+    person: ['alex', 'tom', 'jerry']
   },
 
   /**
@@ -65,5 +66,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  handleItemClick(event) {
+    console.log(event)
+    let index = event.currentTarget.dataset.index
+    let item = event.currentTarget.dataset.item
+    console.log(index, item)
   }
 })
