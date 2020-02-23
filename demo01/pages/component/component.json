@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "title": "/components/customCmp/title"
+    "title": "/components/customCmp/title",
+    "data-cmp": "/components/dataCmp/data-cmp"
   }
 }

@@ -1,0 +1,4 @@
+<!--components/dataCmp/data-cmp.wxml-->
+<text>components/dataCmp/data-cmp.wxml</text>
+<view class="title">{{title}}</view>
+<view class="content">this is {{title}} content</view>
