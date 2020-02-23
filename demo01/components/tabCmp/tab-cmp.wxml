@@ -1,0 +1,9 @@
+<!--components/tabCmp/tab-cmp.wxml-->
+<view class="container">
+  <view wx:for="{{items}}" wx:key="index" 
+    class="tab-bar {{currentIndex == index ? 'active':''}}"
+    bindtap="handleItemClick"
+    data-index="{{index}}">
+    <text>{{item}}</text>
+  </view>
+</view>

@@ -28,3 +28,6 @@
 <!-- 7. 组件与页面间的通信(传递事件) -->
 <view>点击按钮加一{{count}}</view>
 <event-cmp bind:increment="handleIncrement"/>
+
+<!-- 8. 自定制组件练习 -->
+<tab-cmp items="{{items}}" bind:itemclick="handleItemClick"/>

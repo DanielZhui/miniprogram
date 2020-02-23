@@ -7,7 +7,8 @@ Page({
   data: {
     imagePath: [],
     currentTime: '',
-    count: 0
+    count: 0,
+    items: ["衣服", "裤子", "鞋子"]
   },
 
   /**
@@ -83,5 +84,8 @@ Page({
     this.setData({
       count: this.data.count += 1
     })
+  },
+  handleItemClick(event) {
+    console.log(">>>>", event)
   }
 })

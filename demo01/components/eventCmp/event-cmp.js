@@ -20,6 +20,6 @@ Component({
   methods: {
     handleIncrement() {
       this.triggerEvent("increment", {}, {})
-    }
+    },
   }
 })

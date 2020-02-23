@@ -1,0 +1,19 @@
+/* components/tabCmp/tab-cmp.wxss */
+.container {
+  line-height: 88rpx;
+  height: 88rpx;
+  display: flex;
+}
+
+.tab-bar {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: pink;
+}
+
+.active text {
+  border-bottom: 6rpx solid red
+}
