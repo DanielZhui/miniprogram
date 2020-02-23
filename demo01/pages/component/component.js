@@ -6,7 +6,8 @@ Page({
    */
   data: {
     imagePath: [],
-    currentTime: ''
+    currentTime: '',
+    count: 0
   },
 
   /**
@@ -76,6 +77,11 @@ Page({
           imagePath: path
         })
       },
+    })
+  },
+  handleIncrement() {
+    this.setData({
+      count: this.data.count += 1
     })
   }
 })

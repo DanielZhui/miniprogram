@@ -1,0 +1,2 @@
+<!--components/eventCmp/event-cmp.wxml-->
+<button size="mini" bindtap="handleIncrement">+1</button>

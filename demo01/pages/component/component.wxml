@@ -23,3 +23,8 @@
 <!-- 6. 组件与页面间的通信(传递样式) -->
 <data-cmp title="component" titleclass="red"/>
 <data-cmp title="component" titleclass="blud"/>
+<view>-----------------</view>
+
+<!-- 7. 组件与页面间的通信(传递事件) -->
+<view>点击按钮加一{{count}}</view>
+<event-cmp bind:increment="handleIncrement"/>
