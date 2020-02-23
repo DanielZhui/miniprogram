@@ -13,6 +13,7 @@ Component({
       }
     }
   },
+  externalClasses: ["titleclass"],
 
   /**
    * 组件的初始数据

@@ -1,1 +1,7 @@
 /* pages/component/component.wxss */
+.red {
+  color: red
+}
+.blud {
+  color: blue
+}
