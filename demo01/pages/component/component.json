@@ -3,6 +3,7 @@
     "title": "/components/customCmp/title",
     "data-cmp": "/components/dataCmp/data-cmp",
     "event-cmp": "/components/eventCmp/event-cmp",
-    "tab-cmp": "/components/tabCmp/tab-cmp"
+    "tab-cmp": "/components/tabCmp/tab-cmp",
+    "sele-cmp": "/components/selCmp/sele-cmp"
   }
 }

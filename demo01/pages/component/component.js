@@ -87,5 +87,17 @@ Page({
   },
   handleItemClick(event) {
     console.log(">>>>", event)
+  },
+  // 修改组件内数据(不提倡这样使用不符合规范)
+  // handleIncrementCmp() {
+  //   let sele_cmp = this.selectComponent("#sele-cmp")
+  //   let counter = sele_cmp.data.counter
+  //   sele_cmp.setData({
+  //     counter: counter += 1
+  //   })
+  // }
+  handleIncrementCmp() {
+    const sele_cmp_obj = this.selectComponent("#sele-cmp")
+    sele_cmp_obj.handleCounterIncrement(5)
   }
 })

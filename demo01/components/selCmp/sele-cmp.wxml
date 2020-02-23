@@ -1,0 +1,2 @@
+<!--components/selCmp/sele-cmp.wxml-->
+<view>组件内的数值：{{counter}}</view>
