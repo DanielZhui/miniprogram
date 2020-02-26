@@ -34,6 +34,7 @@
 <view>-----------------</view>
 
 
+
 <!-- 9. 修改组件内的值 -->
 <sele-cmp id="sele-cmp"/>
 <button size="mini" bindtap="handleIncrementCmp">点击修改组件内数值</button>
