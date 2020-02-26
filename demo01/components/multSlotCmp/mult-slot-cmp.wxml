@@ -1,0 +1,6 @@
+<!--components/multSlotCmp/mult-slot-cmp.wxml-->
+<view>multiple component header</view>
+<slot name="slot1"/>
+<slot name="slot2"/>
+<slot name="slot3"/>
+<view>multiple component tail</view>

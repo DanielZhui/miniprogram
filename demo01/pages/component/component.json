@@ -4,6 +4,8 @@
     "data-cmp": "/components/dataCmp/data-cmp",
     "event-cmp": "/components/eventCmp/event-cmp",
     "tab-cmp": "/components/tabCmp/tab-cmp",
-    "sele-cmp": "/components/selCmp/sele-cmp"
+    "sele-cmp": "/components/selCmp/sele-cmp",
+    "slot-cmp": "/components/slotCmp/slotCmp",
+    "mult-slot-cmp": "/components/multSlotCmp/mult-slot-cmp"
   }
 }

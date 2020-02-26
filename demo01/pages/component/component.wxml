@@ -36,3 +36,15 @@
 <!-- 9. 修改组件内的值 -->
 <sele-cmp id="sele-cmp"/>
 <button size="mini" bindtap="handleIncrementCmp">点击修改组件内数值</button>
+
+<!-- 10. 插槽的使用 -->
+<slot-cmp>
+  <button size="mini">compnent button</button>
+  <text>slot test</text>
+</slot-cmp>
+
+<!-- 11. 多插槽的使用 -->
+<mult-slot-cmp>
+  <button slot="slot2">compnent slot2 button</button>
+  <slider slot="slot1" value="60"/>
+</mult-slot-cmp>

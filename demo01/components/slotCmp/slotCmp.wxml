@@ -1,0 +1,4 @@
+<!--components/slotCmp/slotCmp.wxml-->
+<view>component header</view>
+<slot/>
+<view>component tail</view>
